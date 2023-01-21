@@ -1,10 +1,13 @@
 {
-  "User": {
-    "name": {
-      "string": {}
+  "rooms": {
+    "title": {
+      "loremWords": {
+        "minLength": 1,
+        "maxLength": 10
+      }
     },
-    "avatarUrl": {
-      "regexp": "https://i\\.pravatar\\.cc/150\\?u=[0-9]{5}"
+    "cover": {
+      "regexp": "https://picsum\\.photos/seed/[0-9]{5}/1920/270"
     }
   }
 }
