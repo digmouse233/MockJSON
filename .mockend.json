@@ -1,5 +1,16 @@
 {
   "User": {
-    "title": { "string": {} }
+    "name": {
+      "string": {}
+    },
+    "avatarUrl": {
+      "regexp": "https://i\\.pravatar\\.cc/150\\?u=[0-9]{5}"
+    },
+    "age": {
+      "int": {
+        "min": 21,
+        "max": 100
+      }
+    }
   }
 }
