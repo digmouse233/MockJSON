@@ -1,5 +1,14 @@
 {
-  "Rooms": {
+  "User": {
+    "name": {
+      "string": {}
+    },
+    "avatarUrl": {
+      "regexp": "https://i\\.pravatar\\.cc/150\\?u=[0-9]{5}"
+    }
+  },
+
+  "rooms": {
     "title": {
       "loremWords": {
         "minLength": 1,
@@ -8,72 +17,6 @@
     },
     "cover": {
       "regexp": "https://picsum\\.photos/seed/[0-9]{5}/1920/270"
-    },
-    "user": [
-      {
-        "name": {
-          "string": {}
-        },
-        "avatarUrl": {
-          "regexp": "https://i\\.pravatar\\.cc/150\\?u=[0-9]{5}"
-        }
-      },
-      {
-        "name": {
-          "string": {}
-        },
-        "avatarUrl": {
-          "regexp": "https://i\\.pravatar\\.cc/150\\?u=[0-9]{5}"
-        }
-      },
-      {
-        "name": {
-          "string": {}
-        },
-        "avatarUrl": {
-          "regexp": "https://i\\.pravatar\\.cc/150\\?u=[0-9]{5}"
-        }
-      },
-      {
-        "name": {
-          "string": {}
-        },
-        "avatarUrl": {
-          "regexp": "https://i\\.pravatar\\.cc/150\\?u=[0-9]{5}"
-        }
-      },
-      {
-        "name": {
-          "string": {}
-        },
-        "avatarUrl": {
-          "regexp": "https://i\\.pravatar\\.cc/150\\?u=[0-9]{5}"
-        }
-      },
-      {
-        "name": {
-          "string": {}
-        },
-        "avatarUrl": {
-          "regexp": "https://i\\.pravatar\\.cc/150\\?u=[0-9]{5}"
-        }
-      },
-      {
-        "name": {
-          "string": {}
-        },
-        "avatarUrl": {
-          "regexp": "https://i\\.pravatar\\.cc/150\\?u=[0-9]{5}"
-        }
-      },
-      {
-        "name": {
-          "string": {}
-        },
-        "avatarUrl": {
-          "regexp": "https://i\\.pravatar\\.cc/150\\?u=[0-9]{5}"
-        }
-      }
-    ]
+    }
   }
 }
