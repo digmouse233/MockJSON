@@ -1,5 +1,6 @@
+
 {
-  "Post": {
+  "rooms": {
     "title": {
       "loremWords": {
         "minLength": 1,
